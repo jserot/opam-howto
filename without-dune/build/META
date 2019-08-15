@@ -1,0 +1,5 @@
+version = "0.0"
+description = "A dummy OPAM package"
+requires=""
+archive(byte) = "dummy.cma"
+archive(native) = "dummy.cmxa"

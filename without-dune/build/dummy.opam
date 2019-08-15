@@ -1,0 +1,14 @@
+opam-version: "2.0"
+name: "dummy"
+version: "0.0"
+synopsis: "A dummy OPAM package"
+maintainer: "JS"
+authors: "JS"
+license: "MIT"
+depends: [ "ocaml" ]
+build: [
+  [make]
+]
+install: [
+  [make "install"]
+]
